@@ -23,7 +23,7 @@ st.set_page_config(
 # --- CHARGEMENT DU MODÈLE ---
 @st.cache_resource
 def load_mnist_model():
-    model_path = "models/mnist_model.keras"
+    model_path = "mnist_model.keras"
     if not os.path.exists(model_path):
         return None
     model = tf.keras.models.load_model(model_path, compile=False)
@@ -141,3 +141,4 @@ st.divider()
 st.caption(
     "Conseil : écris un seul chiffre bien centré, noir sur fond blanc."
 )
+
