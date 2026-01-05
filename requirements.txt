@@ -1,6 +1,6 @@
 # Application Streamlit basique - MNIST
 # Version simplifiée
-
+opencv
 tensorflow
 streamlit
 Pillow
